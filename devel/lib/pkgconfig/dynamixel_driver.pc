@@ -1,0 +1,8 @@
+prefix=/home/cc/ee106a/fa18/class/ee106a-abz/Downloads/project/devel
+
+Name: dynamixel_driver
+Description: Description of dynamixel_driver
+Version: 0.4.1
+Cflags: 
+Libs: -L/home/cc/ee106a/fa18/class/ee106a-abz/Downloads/project/devel/lib 
+Requires: rospy diagnostic_msgs

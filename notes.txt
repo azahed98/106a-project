@@ -1,0 +1,26 @@
+
+Scan table:
+{'right_j6': -4.593341796875, 'right_j5': 1.5793984375, 'right_j4': -2.9753828125, 'right_j3': -1.199234375, 'right_j2': 3.0357890625, 'right_j1': -1.18423046875, 'right_j0': -0.00971875}
+
+Ready to throw:
+
+- Translation: [0.030, 0.519, 0.049]
+- Rotation: in Quaternion [-0.080, 0.996, 0.002, 0.035]
+            in RPY (radian) [-3.139, 0.071, -2.981]
+            in RPY (degree) [-179.857, 4.058, -170.826]
+
+Start Throw Angles:
+{'right_j6': -4.52530078125, 'right_j5': 0.1446953125, 'right_j4': -2.977474609375, 'right_j3': -3.0460029296875, 'right_j2': 3.03564453125, 'right_j1': -1.5767294921875, 'right_j0': 0.1859931640625}
+
+End Throw Angles (only j3 changed):
+{'right_j6': -4.52530078125, 'right_j5': 0.1446953125, 'right_j4': -2.977474609375, 'right_j3': -2.0692724609375, 'right_j2': 3.03564453125, 'right_j1': -1.5767294921875, 'right_j0': 0.1859931640625}
+
+To get kinect running:
+
+roslaunch freenect_launch freenect.launch
+
+to visualize:
+rosrun image_view disparity_view image:=/camera/depth_registered/disparity
+
+
+Good distance to measure: 23 in
